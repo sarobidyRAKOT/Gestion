@@ -1,0 +1,30 @@
+/* tableau */
+table {
+    width: auto; /* La table s'ajuste à la taille de son contenu */
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.table thead th {
+    /* border: 1px solid; */
+    
+    
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+.table tbody tr {
+    border-bottom: 1px solid rgb(175, 175, 175);
+    text-align: center;
+    font-size: 15px;
+}
+
+.table tbody tr td {
+    border-left: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+}
